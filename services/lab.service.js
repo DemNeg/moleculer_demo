@@ -8,7 +8,8 @@ module.exports = {
 
 	mixins: [Laboratory.AgentService],
     settings: {
-
+        token: "",
+        apiKey: ""
     },
 	metrics: {
         enabled: true,

@@ -40,10 +40,13 @@ module.exports = {
 		* Test action
 		*/
 		test: {
-			async handler(ctx) {
-				return "Hello Moleculer";
+			async handler() {
+				//return this.adapter.find();
+				return "Test service";
+			
 			}
-		}
+		},
+
 	},
 
 	/**
